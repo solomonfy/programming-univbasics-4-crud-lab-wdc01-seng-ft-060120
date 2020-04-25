@@ -11,11 +11,19 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+<<<<<<< HEAD
   array.push "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
   array.unshift "wow"
+=======
+  array.push "arrays"
+end
+
+def add_element_to_start_of_array(array, element)
+  array.unshift "element"
+>>>>>>> d064396697be69406de950d6dee02633ffd01f91
 end
 
 def remove_element_from_end_of_array(array)
@@ -31,6 +39,7 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
+<<<<<<< HEAD
   array[0]
 end
 
@@ -40,5 +49,16 @@ end
 
 def update_element_from_index(array, index_number, element)
   array[4] = "totally"
+=======
+
+end
+
+def retrieve_last_element_from_array(array)
+
+end
+
+def update_element_from_index(array, index_number, element)
+  update_element_from_index[4] = "totally"
+>>>>>>> d064396697be69406de950d6dee02633ffd01f91
 
 end
